@@ -1,0 +1,50 @@
+.landingimg{
+    height: 350px;
+    width: 100%;
+}
+
+
+h2{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    color: inherit;
+}
+
+.container h2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 7px;
+    background-color: #fc0;
+    margin-top: .5rem;
+}
+
+
+img.avisimg{
+    border:1px solid #000000; 
+    padding:0px; 
+    margin:0px;
+    width:100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:362px;
+}
+
+.container{
+    display: block;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+ol, ul {
+    margin-left: -20px;
+}

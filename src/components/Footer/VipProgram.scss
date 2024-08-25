@@ -1,0 +1,81 @@
+.vip-program-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFD700; /* Gold background color */
+  }
+  
+  .vip-program-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .vip-program-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vip-program-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .vip-program-right {
+    flex: 1;
+    padding: 20px;
+    color: #000;
+  }
+  
+  .vip-program-right h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .vip-program-right p {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+  
+  .vip-program-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .vip-program-footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .vip-program-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .vip-program-right {
+      text-align: center;
+    }
+  }
+  
+
+.vip-program-footer{
+    a {
+        text-decoration: none;
+        color:#000;
+        font-weight: 700;
+    }
+}
